@@ -33,7 +33,7 @@
 
 使用时需前往`UCASReport.sty` 对标题、副标题、姓名、学号、院所、页眉等进行设置，然后编辑main.tex进行正文编写
 
-强烈推荐使用[Overleaf](https://github.com/mohuangrui/ucasthesis/wiki/字体配置#linuxoverleaf-系统的字体配置)！
+* 强烈推荐使用[Overleaf](https://github.com/mohuangrui/ucasthesis/wiki/字体配置#linuxoverleaf-系统的字体配置)！*
 
 ---------
 
