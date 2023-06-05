@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <a href="https://github.com/swq123459/GZHU-Report-Latex-Version">
-    <img alt="AwesomeCV" src="https://github.com/swq123459/swq123456-readmePicture/blob/master/commom/latexhalf.png?raw=true"  />
+    <img alt="AwesomeCV" src="https://github.com/jweihe/UCAS_Latex_Template/blob/main/figures/ucas_logo.png"  />
   </a>
 
   <br />
