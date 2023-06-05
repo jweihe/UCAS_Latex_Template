@@ -1,8 +1,8 @@
 
 
 <h1 align="center">
-  <a href="https://github.com/swq123459/GZHU-Report-Latex-Version">
-    <img alt="AwesomeCV" src="https://github.com/jweihe/UCAS_Latex_Template/blob/main/figures/ucas_logo.png"  />
+  <a href="https://github.com/jweihe/UCAS_Latex_Template">
+    <img alt="UCAS_Latex_Template" src="https://github.com/jweihe/UCAS_Latex_Template/blob/main/figures/ucas_logo.png"  />
   </a>
 
   <br />
