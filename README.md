@@ -38,4 +38,4 @@
 
 |  [封面效果图](https://github.com/jweihe/UCAS_Latex_Template/blob/main/ucas_report.png) | 
 |:---:|
-| ![Résumé]([https://github.com/swq123459/swq123456-readmePicture/blob/master/report/zzv1.png](https://github.com/jweihe/UCAS_Latex_Template/blob/main/ucas_report.png)?raw=true) | 
+| ![Résumé]([https://github.com/swq123459/swq123456-readmePicture/blob/master/report/zzv1.png](https://github.com/jweihe/UCAS_Latex_Template/blob/main/ucas_report.png?raw=true) | 
