@@ -1,0 +1,2 @@
+# UCAS_Latex_Template
+中国科学院大学通用课程大作业模板
