@@ -25,12 +25,12 @@
 
 ## 使用方法
 默认模板文件由以下四部分组成：
-`\begin{itemize}
-    \item \texttt{main.tex} 主文件
-    \item \texttt{reference.bib} 参考文献，使用bibtex
-    \item \texttt{UCASReport.sty} 文档格式控制，包括一些基础的设置，如页眉、标题、姓名等
-    \item \texttt{figures} 放置图片的文件夹
-\end{itemize}`
+
+- `main.tex` 主文件
+- `reference.bib` 参考文献，使用bibtex
+- `UCASReport.sty` 文档格式控制，包括一些基础的设置，如页眉、标题、姓名等
+- `figures` 放置图片的文件夹
+
 
 第一次使用时需前往\texttt{UCASReport.sty} 对标题、姓名、学号、院所、页眉等进行设置，设置完后即可一劳永逸，封面logo亦可替换
 
