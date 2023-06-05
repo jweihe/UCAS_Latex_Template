@@ -21,7 +21,7 @@
 ## 模板下载
 
 * 页面右边点击：**Clone or download -> Download Zip**
-* 已经上传至Overleaf模板，开箱即用 ☞ [Overleaf](https://github.com/mohuangrui/ucasthesis/wiki/字体配置#linuxoverleaf-系统的字体配置)
+* 已经上传至Overleaf模板，开箱即用 ☞ [Overleaf](https://cn.overleaf.com/)
 
 ## 使用方法
 默认模板文件由以下四部分组成：
@@ -34,7 +34,7 @@
 使用时需前往`UCASReport.sty` 对标题、副标题、姓名、学号、院所、页眉等进行设置，然后编辑`main.tex`进行正文编写
 
 --------- 
- **强烈推荐使用[Overleaf](https://github.com/mohuangrui/ucasthesis/wiki/字体配置#linuxoverleaf-系统的字体配置)** 模板已上传 
+ **强烈推荐使用[Overleaf](https://cn.overleaf.com/)** 
 
 ---------
 
