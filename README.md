@@ -39,5 +39,5 @@
 |  [封面效果图](https://github.com/jweihe/UCAS_Latex_Template/blob/main/ucas_report.png) | 
 |:-:|
 | ![Résumé](https://github.com/jweihe/UCAS_Latex_Template/blob/main/ucas_report.png?raw=true) | 
-|  <img width=200/> |
+|  <img width=20/> |
 
