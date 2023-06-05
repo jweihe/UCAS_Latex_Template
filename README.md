@@ -31,7 +31,6 @@
 - `UCASReport.sty` 文档格式控制，包括一些基础的设置，如页眉、标题、姓名等
 - `figures` 放置图片的文件夹
 
-
 第一次使用时需前往`UCASReport.sty` 对标题、副标题、姓名、学号、院所、页眉等进行设置
 
 上传logo到figures可自定义院校logo
