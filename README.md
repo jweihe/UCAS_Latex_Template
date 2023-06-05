@@ -35,7 +35,7 @@
 
 ---------
 
-|  [封面效果图](https://github.com/jweihe/UCAS_Latex_Template/blob/main/ucas_report.png) |  [目录效果图](https://github.com/jweihe/UCAS_Latex_Template/blob/main/index.png)| 
+|  [封面效果图](https://github.com/jweihe/UCAS_Latex_Template/blob/main/figure/ucas_report.png) |  [目录效果图](https://github.com/jweihe/UCAS_Latex_Template/blob/main/figure/index.png)| 
 |:---:|:---:|
-| ![Résumé](https://github.com/jweihe/UCAS_Latex_Template/blob/main/ucas_report.png?raw=true) | ![Résumé](https://github.com/jweihe/UCAS_Latex_Template/blob/main/index.png?raw=true)| 
+| ![Résumé](https://github.com/jweihe/UCAS_Latex_Template/blob/main/figure/ucas_report.png?raw=true) | ![Résumé](https://github.com/jweihe/UCAS_Latex_Template/blob/main/figure/index.png?raw=true)| 
 
