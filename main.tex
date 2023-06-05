@@ -1,0 +1,152 @@
+%!TeX program = xelatex
+\documentclass[12pt,hyperref,a4paper,UTF8]{ctexart}
+\usepackage{UCASReport}
+
+%%-------------------------------正文开始---------------------------%%
+\begin{document}
+
+%%-----------------------封面--------------------%%
+\cover
+
+%%------------------摘要-------------%%
+%\begin{abstract}
+%
+%在此填写摘要内容
+%
+%\end{abstract}
+
+\thispagestyle{empty} % 首页不显示页码
+
+%%--------------------------目录页------------------------%%
+\newpage
+\tableofcontents
+
+%%------------------------正文页从这里开始-------------------%
+\newpage
+
+%%可选择这里也放一个标题
+%\begin{center}
+%    \title{ \Huge \textbf{{标题}}}
+%\end{center}
+
+\section{模板说明}
+本模板主要适用于一些课程的平时论文以及期末论文，默认页边距为2.5cm，中文宋体，英文Times New Roman，字号为12pt（小四）。
+
+编译方式：\verb|xelatex -> bibtex -> xelatex*2|
+
+
+默认模板文件由以下四部分组成：
+\begin{itemize}
+    \item \texttt{main.tex} 主文件
+    \item \texttt{reference.bib} 参考文献，使用bibtex
+    \item \texttt{UCASReport.sty} 文档格式控制，包括一些基础的设置，如页眉、标题、姓名等
+    \item \texttt{figures} 放置图片的文件夹
+\end{itemize}
+
+第一次使用时需前往\texttt{UCASReport.sty} 对标题、姓名、学号、院所、页眉等进行设置，设置完后即可一劳永逸，封面logo亦可替换
+
+默认带有封面页以及目录页，页码从目录页开始
+
+\section{一些插入功能}
+\subsection{插入公式}
+行内公式$v-\varepsilon+\phi=2$。
+
+插入行间公式如\autoref{Euler}：
+\begin{equation}
+    v-\varepsilon+\phi=2
+    \label{Euler}
+\end{equation}
+
+\subsection{插入图片}
+UCAS校徽如\autoref{UCAS}所示，注意这里使用了\verb|~\autoref{}|命令，也就是会自动生成“图”“式”等前缀，无需手动输入。
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width =.4\textwidth]{figures/ucas_logo.pdf}
+    \caption{中国科学院大学}
+    \label{UCAS}
+\end{figure}
+
+插入上面图片的代码：
+
+\begin{verbatim}
+    \begin{figure}[!htbp]
+        \centering
+        \includegraphics[width =.4\textwidth]{figures/ucas_logo.pdf}
+        \caption{中国科学院大学}
+        \label{UCAS}
+    \end{figure}
+\end{verbatim}
+
+\subsection{插入文本框}
+本模板定义了一个圆角灰底的文本框，使用简化命令\verb|\tbox{}|即可，如果你不喜欢，可以前往 \texttt{UCASReport.sty}对其进行修改。
+
+\tbox{
+    这是一个圆角灰底的文本框
+}
+
+\subsection{插入表格}
+本模板文件如\autoref{doc}所示。
+\begin{table}[!htbp]
+    \centering
+    \begin{tabular}{l  | l}
+    \hline
+        文件名 & 说明 \\
+        \hline
+        \texttt{main.tex}  & 主文件 \\
+        \texttt{reference.bib} & 参考文献 \\
+        \texttt{UCASReport.sty}  & 文档格式控制\\
+        \texttt{figures}  & 图片文件夹 \\
+        \hline
+    \end{tabular}
+    \caption{本模板文件组成}
+    \label{doc}
+\end{table}
+
+%\section{定理环境}
+%\begin{Theorem}
+%\end{Theorem}
+%
+%\begin{Lemma}
+%\end{Lemma}
+%
+%\begin{Corollary}
+%\end{Corollary}
+%
+%\begin{Proposition}
+%\end{Proposition}
+%
+%\begin{Definition}
+%\end{Definition}
+%
+%\begin{Example}
+%\end{Example}
+%
+%\begin{proof}
+%\end{proof}
+
+\subsection{插入参考文献}
+直接使用\verb|\cite{}|即可。
+
+例如：
+
+
+   \textit{ 此处引用了文献\cite{0Isaac}。此处引用了文献\cite{2016The}}
+
+
+引用过的文献会自动出现在参考文献中。
+
+\section{写在最后}
+\subsection{发布地址}
+\begin{itemize}
+    \item Github: \url{https://github.com/jweihe/UCAS_Latex_Template}
+    \item Overleaf:  \url{https://www.overleaf.com/latex/templates/UCASke-cheng-lun-wen-mo-ban/bcwvxncqffkw}
+\end{itemize}
+
+%%----------- 参考文献 -------------------%%
+%在reference.bib文件中填写参考文献，此处自动生成
+
+\reference
+
+
+\end{document}
