@@ -29,7 +29,7 @@
 - `main.tex` 主文件
 - `reference.bib` 参考文献，使用bibtex
 - `UCASReport.sty` 文档格式控制，包括一些基础的设置，如页眉、标题、姓名等
-- `figures` 放置图片的文件夹
+- `figures` 放置图片的文件夹,包含院校LOGO和效果预览图
 
 第一次使用时需前往`UCASReport.sty` 对标题、副标题、姓名、学号、院所、页眉等进行设置
 
@@ -38,4 +38,10 @@
 |  [封面效果图](https://github.com/jweihe/UCAS_Latex_Template/blob/main/figures/ucas_report.png) |  [目录效果图](https://github.com/jweihe/UCAS_Latex_Template/blob/main/figures/index.png)| 
 |:---:|:---:|
 | ![Résumé](https://github.com/jweihe/UCAS_Latex_Template/blob/main/figures/ucas_report.png?raw=true) | ![Résumé](https://github.com/jweihe/UCAS_Latex_Template/blob/main/figures/index.png?raw=true)| 
+
+## 参考
+
++ [GBT7714-2015标准下的BibTex样式](https://github.com/zepinglee/gbt7714-bibtex-style)
++ [国科大学位论文LaTeX模板](https://github.com/mohuangrui/ucasthesis)
++ [北京大学课程论文模板](https://www.overleaf.com/latex/templates/bei-jing-da-xue-ke-cheng-lun-wen-mo-ban/yntmqcktrzfh)
 
