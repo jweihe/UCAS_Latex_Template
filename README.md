@@ -31,7 +31,7 @@
 - `UCASReport.sty` 文档格式控制，包括一些基础的设置，可以设置页眉、标题、姓名等
 - `figures` 放置图片的文件夹,包含院校LOGO和效果预览图
 
-使用时需前往`UCASReport.sty` 对标题、副标题、姓名、学号、院所、页眉等进行设置，然后编辑main.tex进行正文编写
+使用时需前往`UCASReport.sty` 对标题、副标题、姓名、学号、院所、页眉等进行设置，然后编辑`main.tex`进行正文编写
 
 --------- 
  **强烈推荐使用[Overleaf](https://github.com/mohuangrui/ucasthesis/wiki/字体配置#linuxoverleaf-系统的字体配置)** 模板已上传 
