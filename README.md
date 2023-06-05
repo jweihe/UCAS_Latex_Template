@@ -21,7 +21,7 @@
 ## 模板下载
 
 * 页面右边点击：**Clone or download -> Download Zip**
-* [Overleaf](https://github.com/mohuangrui/ucasthesis/wiki/字体配置#linuxoverleaf-系统的字体配置)
+* 已经上传至Overleaf模板，开箱即用 ☞ [Overleaf](https://github.com/mohuangrui/ucasthesis/wiki/字体配置#linuxoverleaf-系统的字体配置)
 
 ## 使用方法
 <div>
