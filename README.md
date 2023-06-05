@@ -24,18 +24,17 @@
 * 已经上传至Overleaf模板，开箱即用 ☞ [Overleaf](https://github.com/mohuangrui/ucasthesis/wiki/字体配置#linuxoverleaf-系统的字体配置)
 
 ## 使用方法
-<div>
-  前奏：可以通过我写的教程安装 CTex 和 Texstudio 开发环境，点击右边标签👌
-  <a href="https://blog.csdn.net/qq_33826564/article/details/81490478">
-    <img alt="CSDN BLOG" src="https://img.shields.io/badge/CSDN-swq123459-red.svg" />
-  </a>  
-</div>
-如果链接失效，可以看看该rep下的文档`教程.md`
-<br />
+默认模板文件由以下四部分组成：
+\begin{itemize}
+    \item \texttt{main.tex} 主文件
+    \item \texttt{reference.bib} 参考文献，使用bibtex
+    \item \texttt{UCASReport.sty} 文档格式控制，包括一些基础的设置，如页眉、标题、姓名等
+    \item \texttt{figures} 放置图片的文件夹
+\end{itemize}
 
-- 安装完成之后我们就可以使用`Texstudio`来写`Latex`文档了，这里很简单，我模板都为大家做好了，要做的就是在`Texstudio`里面点开`.tex`文件，然后点击“编译”按钮，就可以生成好开的`.pdf`格式的报告啦(生成的`.pdf`文件在根目录哦)。
+第一次使用时需前往\texttt{UCASReport.sty} 对标题、姓名、学号、院所、页眉等进行设置，设置完后即可一劳永逸，封面logo亦可替换
 
--  为了方便小白写`Latex`,我里面注释都有很多比方说公式，图片插入（插入图片最后用`.pdf`的图片或者`.eps`的图片，这样放大之后不会有丢失，也就是矢量图），表格插入，代码插入，之类的示范，大家点进去看就知道了。
+默认带有封面页以及目录页，页码从目录页开始
 ---------
 
 
